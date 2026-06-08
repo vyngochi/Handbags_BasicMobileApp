@@ -1,7 +1,12 @@
 import { ThemedText } from "@/components/themed-text";
+import { Skeleton } from "moti/skeleton";
 import React from "react";
 
-export default function HomeScreenTitle() {
+export default function HomeScreenTitle({
+  isFetching,
+}: {
+  isFetching: boolean;
+}) {
   return (
     <ThemedText
       style={{
@@ -10,7 +15,11 @@ export default function HomeScreenTitle() {
         fontFamily: "Montserrat-Bold",
       }}
     >
-      Discover Luxury Handbags
+      {isFetching ? (
+        <Skeleton colorMode="light" width={300} height={50} />
+      ) : (
+        "Discover Luxury Handbag"
+      )}
     </ThemedText>
   );
 }

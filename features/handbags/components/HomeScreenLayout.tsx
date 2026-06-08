@@ -1,6 +1,6 @@
 import { useFocusEffect } from "expo-router";
 import React, { useCallback, useState } from "react";
-import { ScrollView } from "react-native";
+import { RefreshControl, ScrollView } from "react-native";
 import { useFavorites } from "../hooks/useFavorites";
 import { useGetAllHandbags } from "../hooks/useGetAllHandbags";
 import FilterBrand from "./FilterBrand";
@@ -12,7 +12,7 @@ import Search from "./Search";
 export default function HomeScreenLayout() {
   const [searchKey, setSearchKey] = useState("");
   const [selectedBrand, setSelectedBrand] = useState("All");
-  const { data } = useGetAllHandbags();
+  const { data, refetch, isFetching } = useGetAllHandbags();
   const { favoriteIds, toggleFavorite, loadFavorites } = useFavorites();
 
   useFocusEffect(
@@ -34,19 +34,30 @@ export default function HomeScreenLayout() {
   }
 
   return (
-    <ScrollView style={{ padding: 20 }}>
-      <HomeScreenTitle />
-      <HomeScreenDescription />
-      <Search searchKey={searchKey} setSearchKey={setSearchKey} />
+    <ScrollView
+      refreshControl={
+        <RefreshControl onRefresh={refetch} refreshing={isFetching} />
+      }
+      style={{ padding: 20 }}
+    >
+      <HomeScreenTitle isFetching={isFetching} />
+      <HomeScreenDescription isFetching={isFetching} />
+      <Search
+        isFetching={isFetching}
+        searchKey={searchKey}
+        setSearchKey={setSearchKey}
+      />
       <FilterBrand
         items={BRANDS}
         selectedBrand={selectedBrand}
         setSelectedBrand={setSelectedBrand}
+        isLoading={isFetching}
       />
       <HandbagList
         favoriteIds={favoriteIds}
         toggleFavorite={toggleFavorite}
         items={handbagDataFiltered}
+        isLoading={isFetching}
       />
     </ScrollView>
   );
