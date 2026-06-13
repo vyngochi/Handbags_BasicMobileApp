@@ -16,7 +16,7 @@ export default function Search({ searchKey, setSearchKey, isFetching }: Props) {
   ) : (
     <TextInput
       placeholder="Search handbags ..."
-      className="shadow-md rounded-full bg-white my-5 min-h-15 p-4 font-regular"
+      className="p-4 my-5 bg-white border border-[#ccc] rounded-full shadow-md min-h-15 font-regular"
       value={searchKey}
       onChangeText={setSearchKey}
     />

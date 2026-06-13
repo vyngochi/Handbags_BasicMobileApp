@@ -1,4 +1,5 @@
-import React from "react";
+import { useRouter } from "expo-router";
+import React, { useCallback } from "react";
 import { FlatList, View } from "react-native";
 import { HandbagResponse } from "../types/handbag.type";
 import HandbagCard from "./HandbagCard";
@@ -15,6 +16,12 @@ export default function HandbagList({
   toggleFavorite: (v: string) => void;
   isLoading: boolean;
 }) {
+  const router = useRouter();
+
+  const handlePressDetail = useCallback((id: string) => {
+    router.push({ pathname: "/handbag/[id]", params: { id: id } });
+  }, []);
+
   return isLoading ? (
     <FlatList
       data={[1, 2, 3, 4]}
@@ -27,6 +34,7 @@ export default function HandbagList({
         gap: 12,
       }}
       contentContainerStyle={{ gap: 12 }}
+      className="flex-1"
     />
   ) : (
     <FlatList
@@ -37,6 +45,7 @@ export default function HandbagList({
           favoriteIds={favoriteIds}
           toggleFavorite={toggleFavorite}
           item={item}
+          handlePressDetail={handlePressDetail}
         />
       )}
       ListEmptyComponent={() => <View />}
@@ -47,6 +56,7 @@ export default function HandbagList({
         gap: 12,
       }}
       contentContainerStyle={{ gap: 12 }}
+      className="px-1 pb-10"
     />
   );
 }

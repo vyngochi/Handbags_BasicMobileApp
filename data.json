@@ -1,0 +1,538 @@
+[
+  {
+    "id": "1",
+    "handbagName": "Galuchat Serpenti Forever Crossbody in Red",
+    "brand": "Bvlgari",
+    "cost": 2798,
+    "category": "Crossbody",
+    "gender": true,
+    "percentOff": 0.42,
+    "description": "Chiếc túi crossbody cao cấp được chế tác từ da galuchat hiếm, nổi bật với khóa đầu rắn Serpenti mang tính biểu tượng của Bvlgari. Sắc đỏ sang trọng giúp tôn lên phong cách quyền lực và đẳng cấp. Thiết kế nhỏ gọn nhưng tinh tế, phù hợp cho các buổi tiệc, sự kiện hoặc khi bạn muốn tạo điểm nhấn nổi bật cho trang phục.",
+    "variants": {
+      "images": [
+        "https://res.cloudinary.com/dfzgvptyb/image/upload/v1780218697/Galuchat_Serpenti_Forever_Crossbody_in_Red_nuxyno.jpg"
+      ]
+    },
+
+    "feedbacks": [
+      {
+        "user": "Minh_Anh",
+        "rating": 5,
+        "comment": "Quá đẹp và sang, cầm lên là thấy khác biệt ngay."
+      },
+      {
+        "user": "Ngoc_Tram",
+        "rating": 4.7,
+        "comment": "Màu đỏ rất nổi bật, đi tiệc cực hợp."
+      },
+      {
+        "user": "Lan_Chi",
+        "rating": 4.5,
+        "comment": "Giá cao nhưng chất lượng và thương hiệu xứng đáng."
+      }
+    ],
+    "coordinates": {
+      "latitude": 10.776659161030794,
+      "longitude": 106.70187752417796,
+      "address": "Bvlgari Union Square"
+    }
+  },
+  {
+    "id": "2",
+    "handbagName": "Ladies Monogram Print Shoulder Bag",
+    "brand": "Michael Kors",
+    "cost": 215.98,
+    "category": "Shoulder Bag",
+    "gender": true,
+    "percentOff": 0.55,
+    "description": "Túi đeo vai với họa tiết monogram đặc trưng của Michael Kors, mang lại vẻ trẻ trung và hiện đại. Thiết kế tiện dụng với không gian chứa đủ cho nhu cầu hằng ngày. Chất liệu bền bỉ, dễ phối với nhiều phong cách từ công sở đến dạo phố. Đây là lựa chọn lý tưởng cho người yêu thích sự tiện lợi và thời trang.",
+    "variants": {
+      "color": "Vanilla",
+      "images": [
+        "https://res.cloudinary.com/dfzgvptyb/image/upload/v1780218754/Ladies_Monogram_Print_Shoulder_Bag_Vanila_ozaail.jpg",
+        "https://res.cloudinary.com/dfzgvptyb/image/upload/v1780218826/Ladies_Monogram_Print_Shoulder_Bag_Acorn_mnzrcn.jpg"
+      ]
+    },
+    "feedbacks": [
+      {
+        "user": "Phuong_Thao",
+        "rating": 4,
+        "comment": "Dễ phối đồ, dùng hằng ngày rất tiện."
+      },
+      {
+        "user": "Mai_Anh",
+        "rating": 4.3,
+        "comment": "Nhẹ và đẹp, hợp đi làm."
+      },
+      {
+        "user": "Thao_Linh",
+        "rating": 3.9,
+        "comment": "Ổn trong tầm giá nhưng không quá nổi bật."
+      }
+    ],
+    "coordinates": {
+      "latitude": 10.796699573111875,
+      "longitude": 106.6757456241781,
+      "address": "Michael Kors K&A US Style"
+    }
+  },
+  {
+    "id": "3",
+    "handbagName": "Mini Shield Leather Shoulder Bag",
+    "brand": "Burberry",
+    "cost": 583.19,
+    "category": "Shoulder Bag",
+    "gender": true,
+    "percentOff": 0.56,
+    "description": "Thiết kế độc đáo lấy cảm hứng từ hình chiếc khiên, chiếc túi Burberry này mang lại cảm giác mới lạ và khác biệt. Chất liệu da cao cấp cùng logo dập sắc nét tạo nên sự sang trọng. Kích thước mini phù hợp cho những buổi dạo phố hoặc sự kiện nhẹ nhàng, khi bạn cần một phụ kiện tinh tế nhưng vẫn nổi bật.",
+    "variants": {
+      "color": "Gray",
+      "images": [
+        "https://res.cloudinary.com/dfzgvptyb/image/upload/v1780218963/Mini_Shield_Leather_Shoulder_Bag_Grey_r3bjqm.jpg",
+        "https://res.cloudinary.com/dfzgvptyb/image/upload/v1780218968/Mini_Shield_Leather_Shoulder_Bag_Silver_mx3gxm.jpg"
+      ]
+    },
+
+    "feedbacks": [
+      {
+        "user": "Kien_Tran",
+        "rating": 4.5,
+        "comment": "Form lạ mắt, nhìn rất high-fashion."
+      },
+      {
+        "user": "Ha_My",
+        "rating": 4.2,
+        "comment": "Nhỏ gọn nhưng khá tiện."
+      },
+      {
+        "user": "Quynh_Anh",
+        "rating": 4.6,
+        "comment": "Chất da và hoàn thiện rất tốt."
+      }
+    ],
+    "coordinates": {
+      "latitude": 10.821087048287001,
+      "longitude": 106.66490372949237,
+      "address": "Burberry Rex Arcade"
+    }
+  },
+  {
+    "id": "4",
+    "handbagName": "Logo Embroidered Shoulder Bag",
+    "brand": "FERRAGAMO",
+    "cost": 595,
+    "category": "Shoulder Bag",
+    "gender": false,
+    "percentOff": 0.41,
+    "description": "Chiếc túi đeo chéo mang phong cách nam tính với logo thêu nổi bật của Ferragamo. Thiết kế năng động, phù hợp với các hoạt động thường ngày hoặc đi chơi. Màu sắc trầm nhưng cá tính, giúp người dùng dễ dàng kết hợp với nhiều trang phục khác nhau mà vẫn giữ được nét riêng.",
+    "variants": {
+      "color": "Red",
+      "images": [
+        "https://res.cloudinary.com/dfzgvptyb/image/upload/v1780219205/Logo_Embroidered_Shoulder_Bag_Red_poptfd.jpg"
+      ]
+    },
+    "feedbacks": [
+      {
+        "user": "Duy_Manh",
+        "rating": 5,
+        "comment": "Rất hợp style streetwear."
+      },
+      {
+        "user": "Minh_Khoa",
+        "rating": 4.6,
+        "comment": "Đeo gọn và tiện."
+      },
+      {
+        "user": "Hoang_Long",
+        "rating": 4.4,
+        "comment": "Màu đẹp, chất liệu ổn."
+      }
+    ],
+    "coordinates": {
+      "latitude": 10.775790682390614,
+      "longitude": 106.70087946650688,
+      "address": "Ferragamo Rex Arcade"
+    }
+  },
+  {
+    "id": "5",
+    "handbagName": "Cut Out-Detail Shoulder Bag",
+    "brand": "FERRAGAMO",
+    "cost": 588,
+    "category": "Shoulder Bag",
+    "gender": true,
+    "percentOff": 0.4,
+    "description": "Chiếc túi Ferragamo này nổi bật với chi tiết cut-out kim loại Gancini đặc trưng, mang đến vẻ đẹp hiện đại và tinh tế. Thiết kế thanh lịch, phù hợp cho cả môi trường công sở lẫn dạo phố. Chất liệu cao cấp cùng độ hoàn thiện tốt giúp sản phẩm bền bỉ và giữ form đẹp theo thời gian.",
+    "variants": {
+      "color": "Black",
+      "images": [
+        "https://res.cloudinary.com/dfzgvptyb/image/upload/v1780219241/Cut_Out-Detail_Shoulder_Bag_Black_s55q6j.jpg"
+      ]
+    },
+    "feedbacks": [
+      {
+        "user": "Thanh_Truc",
+        "rating": 4.5,
+        "comment": "Chi tiết kim loại rất đẹp và nổi bật."
+      },
+      {
+        "user": "Bao_Chau",
+        "rating": 4.6,
+        "comment": "Cầm chắc tay, nhìn rất sang."
+      },
+      {
+        "user": "Yen_Nhi",
+        "rating": 4.2,
+        "comment": "Dễ phối đồ, dùng đi làm rất hợp."
+      }
+    ],
+    "coordinates": {
+      "latitude": 10.775790682390614,
+      "longitude": 106.70087946650688,
+      "address": "Ferragamo Rex Arcade"
+    }
+  },
+  {
+    "id": "6",
+    "handbagName": "Peekaboo Iseeu Mini Leather Bag",
+    "brand": "Fendi",
+    "cost": 768,
+    "category": "Shoulder Bag",
+    "gender": false,
+    "percentOff": 0.37,
+    "description": "Mẫu túi Peekaboo Iseeu Mini mang phong cách sang trọng đặc trưng của Fendi, với thiết kế nhỏ gọn nhưng vẫn đủ không gian cho nhu cầu cơ bản. Chất liệu da mềm cao cấp cùng màu xám trung tính giúp dễ dàng phối với nhiều phong cách. Phù hợp cho những ai yêu thích sự tinh tế và đẳng cấp.",
+    "variants": {
+      "color": "Gray",
+      "images": [
+        "https://res.cloudinary.com/dfzgvptyb/image/upload/v1780219313/Peekaboo_Iseeu_Mini_Leather_Bag_Grey_lghwjw.webp"
+      ]
+    },
+    "feedbacks": [
+      {
+        "user": "Quoc_Bao",
+        "rating": 5,
+        "comment": "Rất sang, đúng chất Fendi."
+      },
+      {
+        "user": "Anh_Tuan",
+        "rating": 4.7,
+        "comment": "Nhỏ gọn nhưng tiện."
+      },
+      {
+        "user": "Gia_Huy",
+        "rating": 4.4,
+        "comment": "Màu đẹp, da mềm."
+      }
+    ],
+    "coordinates": {
+      "latitude": 10.796699573111875,
+      "longitude": 106.6757456241781,
+      "address": "Fendi Union Square"
+    }
+  },
+  {
+    "id": "7",
+    "handbagName": "Olympia Leather Crossbody Card Case",
+    "brand": "Burberry",
+    "cost": 278,
+    "category": "Card Case",
+    "gender": true,
+    "percentOff": 0.47,
+    "description": "Thiết kế nhỏ gọn nhưng tiện dụng, mẫu card case đeo chéo Olympia của Burberry là lựa chọn lý tưởng cho những ai thích sự tối giản. Chất liệu da cao cấp cùng màu Light Sesame thanh lịch mang lại cảm giác tinh tế. Phù hợp khi đi chơi, cà phê hoặc những dịp không cần mang nhiều đồ.",
+    "variants": {
+      "color": "Light Sesame",
+      "images": [
+        "https://res.cloudinary.com/dfzgvptyb/image/upload/v1780219397/Olympia_Leather_Crossbody_Card_Case_Light_Sesame_b0uslf.jpg"
+      ]
+    },
+    "feedbacks": [
+      {
+        "user": "Lan_Huong",
+        "rating": 4,
+        "comment": "Nhỏ gọn, tiện lợi."
+      },
+      {
+        "user": "Thuy_Duong",
+        "rating": 4.3,
+        "comment": "Màu nhã, dễ phối."
+      },
+      {
+        "user": "Ngoc_Han",
+        "rating": 4.5,
+        "comment": "Rất hợp khi đi chơi nhẹ."
+      }
+    ],
+    "coordinates": {
+      "latitude": 10.821087048287001,
+      "longitude": 106.66490372949237,
+      "address": "Burberry Rex Arcade"
+    }
+  },
+  {
+    "id": "8",
+    "handbagName": "Black Folded Business Card Holder",
+    "brand": "Bvlgari",
+    "cost": 229,
+    "category": "Card Holder",
+    "gender": true,
+    "percentOff": 0.38,
+    "description": "Ví đựng danh thiếp Bvlgari với thiết kế gập gọn gàng, phù hợp cho doanh nhân hoặc người thường xuyên làm việc trong môi trường chuyên nghiệp. Chất liệu da cao cấp màu đen mang lại cảm giác lịch lãm và sang trọng. Sản phẩm nhỏ nhưng thể hiện rõ phong cách và đẳng cấp người dùng.",
+    "variants": {
+      "color": "Black",
+      "images": [
+        "https://res.cloudinary.com/dfzgvptyb/image/upload/v1780219463/Black_Folded_Business_Card_Holder_Black_jdfpkz.jpg"
+      ]
+    },
+    "feedbacks": [
+      {
+        "user": "Tuan_Tu",
+        "rating": 5,
+        "comment": "Rất đẳng cấp, phù hợp công việc."
+      },
+      {
+        "user": "Minh_Duc",
+        "rating": 4.6,
+        "comment": "Gọn và đẹp."
+      },
+      {
+        "user": "Huu_Phat",
+        "rating": 4.4,
+        "comment": "Chất da tốt."
+      }
+    ],
+    "coordinates": {
+      "latitude": 10.776659161030794,
+      "longitude": 106.70187752417796,
+      "address": "Bvlgari Union Square"
+    }
+  },
+  {
+    "id": "9",
+    "handbagName": "Small Empire Leather Wallet",
+    "brand": "Michael Kors",
+    "cost": 49.89,
+    "category": "Wallets",
+    "gender": true,
+    "percentOff": 0.62,
+    "description": "Ví nhỏ gọn của Michael Kors với thiết kế đơn giản nhưng tinh tế, phù hợp cho nhu cầu sử dụng hằng ngày. Kích thước vừa vặn để đựng thẻ và tiền mặt cơ bản. Chất liệu bền bỉ cùng màu sắc trung tính giúp dễ dàng kết hợp với nhiều phong cách khác nhau.",
+    "variants": {
+      "color": "Beige",
+      "images": [
+        "https://res.cloudinary.com/dfzgvptyb/image/upload/v1780219602/Small_Empire_Leather_Wallet_Beige_sr4kpp.jpg"
+      ]
+    },
+    "feedbacks": [
+      {
+        "user": "An_Nhien",
+        "rating": 4,
+        "comment": "Nhỏ gọn, tiện."
+      },
+      {
+        "user": "Kim_Chi",
+        "rating": 4.2,
+        "comment": "Phù hợp dùng hằng ngày."
+      },
+      {
+        "user": "Bao_Tran",
+        "rating": 4.1,
+        "comment": "Ổn trong tầm giá."
+      }
+    ],
+    "coordinates": {
+      "latitude": 10.796699573111875,
+      "longitude": 106.6757456241781,
+      "address": "Michael Kors K&A US Style"
+    }
+  },
+  {
+    "id": "10",
+    "handbagName": "Ladies Signature Logo Carmen Medium Envelope Trifold Wallet",
+    "brand": "Michael Kors",
+    "cost": 80.98,
+    "category": "Wallets",
+    "gender": true,
+    "percentOff": 0.55,
+    "description": "Ví Carmen của Michael Kors với thiết kế gập ba tiện dụng, mang lại không gian lưu trữ hợp lý cho thẻ, tiền và giấy tờ nhỏ. Logo đặc trưng tạo điểm nhấn thời trang. Phù hợp với những người tìm kiếm một chiếc ví vừa đẹp vừa tiện dụng cho nhu cầu hằng ngày.",
+    "variants": {
+      "color": "Brown",
+      "images": [
+        "https://res.cloudinary.com/dfzgvptyb/image/upload/v1780219608/Ladies_Signature_Logo_Carmen_Medium_Envelope_Trifold_Wallet_olmtgi.jpg"
+      ]
+    },
+    "feedbacks": [
+      {
+        "user": "Thu_Ha",
+        "rating": 4.5,
+        "comment": "Ví đẹp, tiện dụng."
+      },
+      {
+        "user": "Lan_Phuong",
+        "rating": 4.3,
+        "comment": "Nhiều ngăn, dễ dùng."
+      },
+      {
+        "user": "My_Tien",
+        "rating": 4.2,
+        "comment": "Đáng tiền."
+      }
+    ],
+    "coordinates": {
+      "latitude": 10.7966779,
+      "longitude": 106.6775629,
+      "address": "Michael Kors K&A US Style"
+    }
+  },
+  {
+    "id": "11",
+    "handbagName": "Peekaboo Leather Card Case Pouch",
+    "brand": "Fendi",
+    "cost": 298.99,
+    "category": "Card Holder",
+    "gender": true,
+    "percentOff": 0.35,
+    "description": "Chiếc card case pouch từ Fendi mang phong cách hiện đại với màu xanh độc đáo. Thiết kế nhỏ gọn nhưng vẫn đủ để chứa các loại thẻ cần thiết. Chất liệu da cao cấp giúp sản phẩm bền bỉ và mang lại cảm giác sang trọng, phù hợp cho người yêu thích phụ kiện tinh tế.",
+    "variants": {
+      "color": "Blue",
+      "images": [
+        "https://res.cloudinary.com/dfzgvptyb/image/upload/v1780219759/Peekaboo_Leather_Card_Case_Pouch_Blue_mtlvia.jpg"
+      ]
+    },
+
+    "feedbacks": [
+      {
+        "user": "My_Linh",
+        "rating": 5,
+        "comment": "Màu rất đẹp và lạ."
+      },
+      {
+        "user": "Thao_Nhi",
+        "rating": 4.6,
+        "comment": "Nhỏ gọn, tiện."
+      },
+      {
+        "user": "Bao_Han",
+        "rating": 4.4,
+        "comment": "Chất lượng tốt."
+      }
+    ],
+    "coordinates": {
+      "latitude": 10.796699573111875,
+      "longitude": 106.6757456241781,
+      "address": "Fendi Union Square"
+    }
+  },
+  {
+    "id": "12",
+    "handbagName": "Logo Series Small Leather Tote",
+    "brand": "Bvlgari",
+    "cost": 1560,
+    "category": "Tote Bags",
+    "gender": true,
+    "percentOff": 0.4,
+    "description": "Túi tote da nhỏ của Bvlgari với thiết kế logo dập nổi tinh tế, mang đến phong cách sang trọng và hiện đại. Không gian chứa rộng rãi hơn so với các mẫu mini khác, phù hợp cho công việc hoặc dạo phố. Chất liệu cao cấp giúp sản phẩm giữ form tốt và sử dụng lâu dài.",
+    "variants": {
+      "color": "Yellow",
+      "images": [
+        "https://res.cloudinary.com/dfzgvptyb/image/upload/v1780219822/Logo_Series_Small_Leather_Tote_Yellow_ypg7mt.jpg"
+      ]
+    },
+    "feedbacks": [
+      {
+        "user": "Phuong_Vy",
+        "rating": 4.5,
+        "comment": "Rất sang và nổi bật."
+      },
+      {
+        "user": "Ngoc_Trinh",
+        "rating": 4.7,
+        "comment": "Form đẹp, rộng rãi."
+      },
+      {
+        "user": "Thanh_Ha",
+        "rating": 4.6,
+        "comment": "Đáng tiền."
+      }
+    ],
+    "coordinates": {
+      "latitude": 10.776659161030794,
+      "longitude": 106.70187752417796,
+      "address": "Bvlgari Union Square"
+    }
+  },
+  {
+    "id": "13",
+    "handbagName": "First Sight Flap Shoulder Bag",
+    "brand": "Fendi",
+    "cost": 1748.98,
+    "category": "Shoulder Bag",
+    "gender": true,
+    "percentOff": 0.37,
+    "description": "Mẫu túi First Sight của Fendi gây ấn tượng với thiết kế nắp gập cùng quai xích kim loại bản lớn. Màu xanh nhạt mang lại cảm giác trẻ trung nhưng vẫn sang trọng. Phù hợp cho các buổi tiệc hoặc sự kiện, khi bạn muốn tạo điểm nhấn nổi bật cho trang phục.",
+    "variants": {
+      "color": "Light Blue",
+      "images": [
+        "https://res.cloudinary.com/dfzgvptyb/image/upload/v1780219864/First_Sight_Flap_Shoulder_Bag_Blue_c8jl7w.webp"
+      ]
+    },
+    "feedbacks": [
+      {
+        "user": "Bich_Phuong",
+        "rating": 5,
+        "comment": "Rất quyến rũ và nổi bật."
+      },
+      {
+        "user": "Thao_Chi",
+        "rating": 4.6,
+        "comment": "Thiết kế đẹp."
+      },
+      {
+        "user": "Minh_Hang",
+        "rating": 4.5,
+        "comment": "Đi tiệc rất hợp."
+      }
+    ],
+    "coordinates": {
+      "latitude": 10.796699573111875,
+      "longitude": 106.6757456241781,
+      "address": "Fendi Union Square"
+    }
+  },
+  {
+    "id": "14",
+    "handbagName": "Serpenti Forever Compact Leather Wallet",
+    "brand": "Bvlgari",
+    "cost": 444.99,
+    "category": "Wallets",
+    "gender": true,
+    "percentOff": 0.4,
+    "description": "Ví Serpenti Forever nhỏ gọn với thiết kế khóa đầu rắn đặc trưng của Bvlgari. Chất liệu da cao cấp cùng màu xanh thanh lịch mang lại cảm giác tinh tế và hiện đại. Phù hợp cho người yêu thích phụ kiện nhỏ gọn nhưng vẫn muốn thể hiện phong cách sang trọng.",
+    "variants": {
+      "color": "Green",
+      "images": [
+        "https://res.cloudinary.com/dfzgvptyb/image/upload/v1780219964/Serpenti_Forever_Compact_Leather_Wallet_Green_ps9mzy.jpg"
+      ]
+    },
+    "feedbacks": [
+      {
+        "user": "Dieu_Nhi",
+        "rating": 4.5,
+        "comment": "Đẹp nhưng bị trầy nhẹ."
+      },
+      {
+        "user": "Lan_Anh",
+        "rating": 4.6,
+        "comment": "Nhỏ gọn, sang."
+      },
+      {
+        "user": "Bao_Ngan",
+        "rating": 4.4,
+        "comment": "Chất lượng tốt."
+      }
+    ],
+    "coordinates": {
+      "latitude": 10.776659161030794,
+      "longitude": 106.70187752417796,
+      "address": "Bvlgari Union Square"
+    }
+  }
+]

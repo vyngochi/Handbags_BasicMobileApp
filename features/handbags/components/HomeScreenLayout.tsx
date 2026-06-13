@@ -13,7 +13,8 @@ export default function HomeScreenLayout() {
   const [searchKey, setSearchKey] = useState("");
   const [selectedBrand, setSelectedBrand] = useState("All");
   const { data, refetch, isFetching } = useGetAllHandbags();
-  const { favoriteIds, toggleFavorite, loadFavorites } = useFavorites();
+  const { favoriteIds, toggleFavorite, loadFavorites, isLoading } =
+    useFavorites();
 
   useFocusEffect(
     useCallback(() => {
@@ -23,9 +24,11 @@ export default function HomeScreenLayout() {
 
   const BRANDS = data?.map((item) => item.brand);
 
-  let handbagDataFiltered = data?.filter((item) =>
-    selectedBrand === "All" ? data : item.brand === selectedBrand,
-  );
+  let handbagDataFiltered = data
+    ?.filter((item) =>
+      selectedBrand === "All" ? data : item.brand === selectedBrand,
+    )
+    .sort((a, b) => b.cost - a.cost);
 
   if (searchKey) {
     handbagDataFiltered = handbagDataFiltered?.filter((item) =>
@@ -38,7 +41,12 @@ export default function HomeScreenLayout() {
       refreshControl={
         <RefreshControl onRefresh={refetch} refreshing={isFetching} />
       }
-      style={{ padding: 20 }}
+      className="flex-1 bg-white"
+      contentContainerStyle={{
+        paddingHorizontal: 10,
+        paddingTop: 10,
+        paddingBottom: 10,
+      }}
     >
       <HomeScreenTitle isFetching={isFetching} />
       <HomeScreenDescription isFetching={isFetching} />
@@ -57,7 +65,7 @@ export default function HomeScreenLayout() {
         favoriteIds={favoriteIds}
         toggleFavorite={toggleFavorite}
         items={handbagDataFiltered}
-        isLoading={isFetching}
+        isLoading={isFetching || isLoading}
       />
     </ScrollView>
   );

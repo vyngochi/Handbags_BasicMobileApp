@@ -1,10 +1,11 @@
+import ChatboxLayout from "@/features/chatbox/components/ChatboxLayout";
 import React from "react";
-import { Text, View } from "react-native";
+import { View } from "react-native";
 
 export default function chat() {
   return (
-    <View>
-      <Text>ABC</Text>
+    <View className="flex-1 bg-[#F8F9FF]">
+      <ChatboxLayout />
     </View>
   );
 }

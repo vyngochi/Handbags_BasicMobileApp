@@ -10,7 +10,7 @@ export type HandbagResponse = {
   variants: {
     color: string;
     images: string[];
-  }[];
+  };
   feedbacks: {
     user: string;
     rating: number;

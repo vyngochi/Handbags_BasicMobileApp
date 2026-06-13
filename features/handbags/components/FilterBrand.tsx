@@ -60,7 +60,7 @@ const FilterTagRender = ({
         className={`flex-row justify-center items-center rounded-2xl p-4 mb-5 mr-2 ${isActive ? "bg-[#005CAB]" : "bg-white"}`}
       >
         <Text
-          className={`${isActive ? "text-white font-bold" : "text-[#005CAB] font-regular"}`}
+          className={`${isActive ? "text-white font-mbold" : "text-[#005CAB] font-regular"}`}
         >
           {item}
         </Text>

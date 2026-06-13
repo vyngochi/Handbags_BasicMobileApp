@@ -1,10 +1,11 @@
+import MyFavorites from "@/features/favorites/components/MyFavoritesLayout";
 import React from "react";
-import { Text, View } from "react-native";
+import { View } from "react-native";
 
 export default function favorites() {
   return (
-    <View className="flex-1 flex-row justify-center items-center">
-      <Text className="">SBAHSDH</Text>
+    <View className="flex-1 flex-row bg-[#F8F9FF]">
+      <MyFavorites />
     </View>
   );
 }

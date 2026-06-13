@@ -6,6 +6,7 @@ import { Colors } from "@/constants/theme";
 import { useColorScheme } from "@/hooks/use-color-scheme";
 
 import { HomeHeader } from "@/components/HomeHeader";
+import { ChatboxHeader } from "@/features/chatbox/components/ChatboxHeader";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
@@ -14,7 +15,6 @@ import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
-
   return (
     <Tabs
       screenOptions={{
@@ -38,6 +38,7 @@ export default function TabLayout() {
         name="favorites"
         options={{
           title: "Favorites",
+          headerShown: true,
           tabBarIcon: ({ color, focused }) => (
             <FontAwesome
               name={focused ? "heart" : "heart-o"}
@@ -45,6 +46,7 @@ export default function TabLayout() {
               color={color}
             />
           ),
+          header: () => <HomeHeader />,
         }}
       />
       <Tabs.Screen
@@ -60,6 +62,7 @@ export default function TabLayout() {
         name="chat"
         options={{
           title: "Chat",
+          headerShown: true,
           tabBarIcon: ({ color, focused }) => (
             <MaterialCommunityIcons
               name={focused ? "star-four-points" : "star-four-points-outline"}
@@ -67,6 +70,7 @@ export default function TabLayout() {
               color={color}
             />
           ),
+          header: () => <ChatboxHeader />,
         }}
       />
       <Tabs.Screen
