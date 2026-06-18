@@ -9,7 +9,6 @@ export const useSaveMessages = () => {
   const loadMessages = async (callback: any) => {
     try {
       const data = await AsyncStorage.getItem("messages");
-      console.log(data);
 
       const parsedMessages = data ? JSON.parse(data) : [];
 
