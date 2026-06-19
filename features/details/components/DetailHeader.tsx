@@ -1,5 +1,5 @@
 import { useRouter } from "expo-router";
-import { ChevronLeft, Map } from "lucide-react-native";
+import { ChevronLeft } from "lucide-react-native";
 import React from "react";
 import { Pressable, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -15,10 +15,6 @@ export function DetailHeader() {
         >
           <ChevronLeft color={"black"} size={28} />
           <Text className="text-xl font-mbold">Detail</Text>
-        </Pressable>
-
-        <Pressable>
-          <Map size={28} />
         </Pressable>
       </View>
     </SafeAreaView>

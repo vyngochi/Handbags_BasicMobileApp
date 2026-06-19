@@ -4,7 +4,7 @@ import React from "react";
 import { HapticTab } from "@/components/haptic-tab";
 import { Colors } from "@/constants/theme";
 import { useColorScheme } from "@/hooks/use-color-scheme";
-
+import 'core-js/actual/object/group-by';
 import { HomeHeader } from "@/components/HomeHeader";
 import { ChatboxHeader } from "@/features/chatbox/components/ChatboxHeader";
 import AntDesign from "@expo/vector-icons/AntDesign";

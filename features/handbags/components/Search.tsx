@@ -19,6 +19,7 @@ export default function Search({ searchKey, setSearchKey, isFetching }: Props) {
       className="p-4 my-5 bg-white border border-[#ccc] rounded-full shadow-md min-h-15 font-regular"
       value={searchKey}
       onChangeText={setSearchKey}
+      clearButtonMode="always"
     />
   );
 }

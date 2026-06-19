@@ -1,3 +1,4 @@
+import { useHandbagStore } from "@/stores/handbagStore";
 import { useFocusEffect } from "expo-router";
 import React, { useCallback, useState } from "react";
 import { RefreshControl, ScrollView } from "react-native";
@@ -11,8 +12,8 @@ import Search from "./Search";
 
 export default function HomeScreenLayout() {
   const [searchKey, setSearchKey] = useState("");
-  const [selectedBrand, setSelectedBrand] = useState("All");
   const { data, refetch, isFetching } = useGetAllHandbags();
+  const { selectedBrand, setSelectedBrand } = useHandbagStore();
   const { favoriteIds, toggleFavorite, loadFavorites, isLoading } =
     useFavorites();
 
@@ -30,9 +31,13 @@ export default function HomeScreenLayout() {
     )
     .sort((a, b) => b.cost - a.cost);
 
-  if (searchKey) {
-    handbagDataFiltered = handbagDataFiltered?.filter((item) =>
-      item.handbagName.includes(searchKey),
+  if (searchKey.trim()) {
+    const keyword = searchKey.toLowerCase().trim();
+
+    handbagDataFiltered = handbagDataFiltered?.filter(
+      (item) =>
+        item.handbagName.toLowerCase().includes(keyword) ||
+        item.brand.toLowerCase().includes(keyword),
     );
   }
 

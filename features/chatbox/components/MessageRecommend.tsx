@@ -20,8 +20,6 @@ export default function MessageRecommend({
   chatMessages,
   handleSelectRecommend,
 }: Props) {
-  console.log(chatMessages);
-
   if (chatMessages.length > 0) {
     return <View></View>;
   }

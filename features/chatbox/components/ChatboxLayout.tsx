@@ -44,6 +44,10 @@ export default function ChatboxLayout() {
   );
 
   useEffect(() => {
+    flatListRef.current?.scrollToEnd({ animated: true });
+  }, []);
+
+  useEffect(() => {
     const timer = setTimeout(() => {
       flatListRef.current?.scrollToEnd({
         animated: true,
